@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button[data-start] {
+  width: 70px;
+}
+
+.timer {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 20px;
+
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
